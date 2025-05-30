@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk Kamu yang Spesial 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #e91e63;
+      animation: fadeIn 2s ease-in-out;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    .heart {
+      font-size: 5em;
+      color: red;
+      animation: heartbeat 1s infinite;
+    }
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .quote {
+      margin-top: 30px;
+      font-style: italic;
+      color: #555;
+    }
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: #e91e63;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Untuk Kamu yang Selalu di Hatiku 💖</h1>
+  <div class="heart">❤️</div>
+
+  <p>Aku cuma mau bilang...</p>
+  <p><strong>Kamu itu istimewa banget 😘</strong></p>
+  <p>Terima kasih sudah hadir dalam hidupku.</p>
+
+  <div class="quote">"Kamu adalah alasanku tersenyum tanpa alasan."</div>
+
+  <button onclick="alert('Aku sayang kamu ❤️')">Klik Kalau Kamu Juga Sayang Aku 😍</button>
+
+</body>
+    </html>
